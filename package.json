@@ -1,0 +1,23 @@
+{
+  "name": "reamaze-client",
+  "version": "0.1.0",
+  "description": "Client utility to retreive reamaze information and store it on JSON files.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "co": "^4.6.0",
+    "commander": "^2.15.1",
+    "jsonfile": "^4.0.0",
+    "lodash": "^4.17.10",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mario Alvarado",
+  "license": "ISC"
+}
