@@ -1,6 +1,6 @@
 {
   "name": "reamaze-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Client utility to retreive reamaze information and store it on JSON files.",
   "main": "index.js",
   "directories": {
