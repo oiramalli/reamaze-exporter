@@ -34,6 +34,13 @@ function main() {
 
     fetcher.fetch(fetchArgs);
   });
+  program.command('download')
+  .description('downloads all attachments based on the last messages.json file eg. "download --brand MyBrand')
+  // .option('-f, --file [file]', 'input file tu use')
+  .action( options => {
+    console.log('Starting to download the attachments');
+    fetcher.downloadAttachments();
+  });
 
   program.parse(process.argv);
 }
